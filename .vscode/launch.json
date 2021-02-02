@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-SpringDataJpaMappingApplication<spring-data-jpa-mapping>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "mainClass": "com.challenge.jpa.SpringDataJpaMappingApplication",
+      "projectName": "spring-data-jpa-mapping",
+      "args": ""
+    }
+  ]
+}
