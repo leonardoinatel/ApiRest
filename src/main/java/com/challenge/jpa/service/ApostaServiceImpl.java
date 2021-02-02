@@ -35,6 +35,8 @@ public class ApostaServiceImpl implements ApostaService {
 					.build();
 		});
 
+		usuarioRepository.save(usuario);
+		
 		String apostaRandom = randomStringProvider.gerarStringAleatoriaArrayNumeros(5);
 		
 		while(apostaRepository.findByApostaRandomAndUsuario(apostaRandom, usuario).isPresent()){
